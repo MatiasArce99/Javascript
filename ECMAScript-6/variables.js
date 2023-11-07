@@ -30,3 +30,11 @@ function funcion() {
     console.log(j);
 }
 funcion();
+
+//Const -> Igual que let, pero prohíbe reasignación de valores.
+/**
+ * Si el valor de una constante es un array o un objeto se puede cambiar.
+ */
+const usuario = {name: 'Matías'};
+usuario.name = 'Daniel'; //Mutabilidad
+console.log(usuario.name);
